@@ -24,6 +24,7 @@ function goTo(page) {
       <router-view />
     </main>
 </div>
+<h3>聽你在瓜</h3>
 </template>
 
 <style scoped>
