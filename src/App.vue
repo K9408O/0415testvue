@@ -19,6 +19,10 @@ function goTo(page) {
     <button @click="goTo('preLineDisplay')">preLineDisplay</button>
     <button @click="goTo('page3')">OpenTime </button>
     <button @click="goTo('ParentSloted')">ParentSloted </button>
+    <button @click="goTo('Parent')">Parent </button>
+    <br>
+    <button @click="goTo('LifeCycle')">LifeCycle </button>
+    <button @click="goTo('LikePage')">LikePage </button>
   </div>
   <hr>
      <!-- 主要內容 -->
