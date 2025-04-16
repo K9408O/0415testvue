@@ -15,8 +15,10 @@ function goTo(page) {
   <div  class="nav">
     <button @click="goTo('homepage')">homepage</button>
     <button @click="goTo('page1')">Page 1</button>
-    <button @click="goTo('page2')">Page 2</button>
-    <button @click="goTo('page3')">Page 3</button>
+    <button @click="goTo('page2')">'DELETE' </button>
+    <button @click="goTo('preLineDisplay')">preLineDisplay</button>
+    <button @click="goTo('page3')">OpenTime </button>
+    <button @click="goTo('ParentSloted')">ParentSloted </button>
   </div>
   <hr>
      <!-- 主要內容 -->

@@ -4,6 +4,8 @@ import HomePage from '../views/HomePage.vue'
 import Page1 from '../views/Page1.vue'
 import Page2 from '../views/Page2.vue'
 import Page3 from '../views/Page3.vue'
+import preLineDisplay from '../views/PreLineDisplay.vue'
+import ParentSloted from '../views/ParentSloted.vue'
 
 const routes = [
     { path: '/', name: 'Home', component: HomePage }, // ✅ 預設首頁
@@ -11,7 +13,9 @@ const routes = [
     { path: '/page1', name: 'Page1', component: Page1 },
     { path: '/page2', name: 'Page2', component: Page2 },
     { path: '/page3', name: 'Page3', component: Page3 },
-]
+    { path: '/preLineDisplay', name: 'preLineDisplay', component: preLineDisplay },
+    { path: '/ParentSloted', name: 'ParentSloted', component: ParentSloted },
+]//
 
 const router = createRouter({
     history: createWebHistory(),
